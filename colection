@@ -1,0 +1,13 @@
+fun main() {
+    // List
+    val readOnlyShapes = listOf("triangle", "square", "circle")
+    println("Shapes: $readOnlyShapes")
+    
+    // Set (Unik, tidak duplikat)
+    val readOnlyFruit = setOf("apple", "banana", "cherry", "cherry")
+    println("Fruit Set: $readOnlyFruit")
+    
+    // Map (Key-Value)
+    val juiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+    println("Juice Apple Value: ${juiceMenu["apple"]}")
+}
