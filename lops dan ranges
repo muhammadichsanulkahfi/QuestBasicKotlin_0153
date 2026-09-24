@@ -1,0 +1,17 @@
+fun main() {
+    // Range & For loop
+    print("For loop 1..5: ")
+    for (number in 1..5) {
+        print(number)
+    }
+    println()
+    
+    // While loop
+    var i = 3
+    print("While loop: ")
+    while (i > 0) {
+        print("$i ")
+        i--
+    }
+    println()
+}
