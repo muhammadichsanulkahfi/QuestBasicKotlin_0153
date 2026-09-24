@@ -1,0 +1,16 @@
+// Fungsi dengan parameter dan return value
+fun sum(x: Int, y: Int): Int {
+    return x + y
+}
+
+fun main() {
+    println("Hasil sum(1, 2) = ${sum(1, 2)}")
+    
+    // Lambda expression
+    val uppercaseString: (String) -> String = { string -> string.uppercase() }
+    println(uppercaseString("hello"))
+    
+    // Null safety & Elvis operator
+    var nullString: String? = null
+    println("Panjang string null dengan Elvis: ${nullString?.length ?: 0}")
+}
