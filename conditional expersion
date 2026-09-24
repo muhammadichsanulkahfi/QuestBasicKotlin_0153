@@ -1,0 +1,20 @@
+fun main() {
+    // If expression
+    val d: Int
+    val check = true
+    if (check) {
+        d = 1
+    } else {
+        d = 2
+    }
+    println("Nilai d: $d")
+    
+    // When expression
+    val obj = "Hello"
+    val result = when (obj) {
+        "1" -> "One"
+        "Hello" -> "Greeting"
+        else -> "Unknown"
+    }
+    println("Result When: $result")
+}
