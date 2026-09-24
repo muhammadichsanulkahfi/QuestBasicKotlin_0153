@@ -1,0 +1,10 @@
+fun main() {
+    println("Hello, world!")
+    
+    // Contoh Variabel
+    val name = "Bima" // read-only
+    var age = 20      // dapat diubah
+    age = 21
+    
+    println("Nama: $name, Umur: $age")
+    }
